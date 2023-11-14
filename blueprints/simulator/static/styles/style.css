@@ -1,0 +1,13 @@
+@import url("drop_down_menu.css");
+
+#status-bar {
+    background-color: #303136;
+}
+
+#general-info {
+    height: 37px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 38px;
+}

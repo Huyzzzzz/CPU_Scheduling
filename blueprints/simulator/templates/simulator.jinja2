@@ -1,0 +1,28 @@
+{% extends "base.jinja2" %}
+
+{% block pagehead %}
+<link rel="stylesheet" href="{{ url_for('.static' , filename='styles/style.css') }}">
+{% endblock %}
+
+{% block content %}
+<div id="status-bar">
+
+    <div id="dropdown-container" class="dropdown-container">
+        <div id="dropdown-toggle" class="dropdown-toggle click-dropdown">
+            Add Source
+        </div>
+        <div class="dropdown-menu">
+            <ul>
+                <li>
+                    <div id="first-come-first-serve">FCFS</div>
+                </li>
+                <li>
+                    <div id="round-robin">Round Robin</div>
+                </li>
+                # Other algorithm    
+            </ul>
+        </div>
+    
+</div>
+
+{% endblock %}
